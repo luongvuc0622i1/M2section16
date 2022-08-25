@@ -27,7 +27,6 @@ public class CopyFile {
             FileWriter fw = new FileWriter(fileOut, true);
             BufferedWriter bw = new BufferedWriter(fw);
             String line = "";
-            int sum = 0;
             FileReader fr = new FileReader(fileIn);
             BufferedReader reader = new BufferedReader(fr);
             while ((line = reader.readLine())!=null){
